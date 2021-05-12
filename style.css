@@ -68,7 +68,7 @@ body {
     /* height: auto; */
 }
 
-ul {
+.borders ul {
     position: relative;
     text-align: center;
     float: right;
@@ -104,4 +104,14 @@ spam {
 
 #lightgreen {
     color: #33cc33;
+}
+
+.essences {
+    border: 2px solid #eeac99;
+    border-radius: 5px;
+    height: 200px;
+    padding: 5%;
+    width: 20%;
+    margin: 0 auto;
+    float: left;
 }
