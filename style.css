@@ -1,0 +1,107 @@
+body {
+    font-family: monospace;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#navbar {
+    min-height: 50px;
+    background-color: #c83349;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#navbar a {
+    display: inline-block;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #f9d5e5;
+    padding-left: 16px;
+}
+
+.main {
+    background-image: url(images/title.jpg);
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title {
+    margin: 0 auto;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position: relative;
+    top: 100px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.borders {
+    border: 2px solid #e06377;
+    border-radius: 5px;
+    height: 250px;
+    padding: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#introduction h2 {
+    margin: 0 auto;
+    padding: 40px;
+    color: #e06377;
+    text-align: center;
+    border: 2px solid #e06377;
+    border-radius: 5px;
+    position: relative;
+    float: left;
+    width: 200px;
+    /* height: auto; */
+}
+
+ul {
+    position: relative;
+    text-align: center;
+    float: right;
+    width: 800px;
+}
+
+spam {
+    font-weight: bold;
+}
+#orange {
+    color: #ff7b25;
+}
+
+#pink {
+    color: #e06377;
+}
+
+#yellow {
+    color: #ffcc5c;
+}
+
+#purple {
+    color: #6b5b95;
+}
+
+#blue {
+    color: #80ced6;
+}
+
+#green {
+    color: #86af49;
+}
+
+#lightgreen {
+    color: #33cc33;
+}
