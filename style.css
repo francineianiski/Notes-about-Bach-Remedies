@@ -42,7 +42,7 @@ body {
     top: 100px;
 }
 
-.container {
+.main-container {
     padding: 10px;
 }
 
@@ -75,7 +75,17 @@ body {
     width: 800px;
 }
 
-spam {
+.essences {
+    /* border: 2px solid #eeac99;
+    border-radius: 5px; */
+    height: 200px;
+    padding: 5%;
+    width: 40%;
+    margin: 0;
+    position: relative;
+}
+
+span {
     font-weight: bold;
 }
 #orange {
@@ -103,15 +113,52 @@ spam {
 }
 
 #lightgreen {
-    color: #33cc33;
+    color: #96ceb4;
 }
 
-.essences {
-    border: 2px solid #eeac99;
-    border-radius: 5px;
-    height: 200px;
-    padding: 5%;
-    width: 20%;
-    margin: 0 auto;
-    float: left;
+.bg-orange {
+    background-color: #ff7b25;
+    color: white;
+}
+
+.bg-pink {
+    background-color: #e06377;
+    color: white;
+}
+
+.bg-yellow {
+    background-color: #ffcc5c;
+    color: white;
+}
+
+.bg-purple {
+    background-color: #6b5b95;
+    color: white;
+}
+
+.bg-blue {
+    background-color: #80ced6;
+    color: white;
+}
+
+.bg-green {
+    background-color: #86af49;
+    color: white;
+}
+
+.bg-lightgreen {
+    background-color: #96ceb4;
+    color: white;
+}
+
+.right {
+    float: right;
+    clear: both;
+    margin-right: 12%;
+}
+
+.left {
+    position: left;
+    clear: both;
+    margin-left: 12%;
 }
